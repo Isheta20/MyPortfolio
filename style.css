@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito Sans";
+}
+body{
+    background-color: rgb(0,0,33);
+    color: aliceblue;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: #1a174d;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+    list-style: none;
+    margin:0 23px;
+}
+
+nav ul a{
+    text-decoration: none;
+    color: white;
+}
+nav ul a:hover{
+    color: rgb(211, 211, 255);
+    font-size: 1.01rem;
+}
+
+main hr{
+    border: 0;
+    background: #9c97f1;
+    height: 1.2px;
+    margin: 40px 84px;
+}
+
+.left{
+    font-size: 1.5rem;
+}
+
+.firstSection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* margin: 20px 0; */
+}
+
+/* .firstSection div{
+    width: 30%;
+    as this gets applied to all the divs inside not just the first div
+} */
+
+/* > targets the direct children */
+.firstSection > div{
+    width: 30%;
+}
+
+.leftSection{
+    font-size: 3rem;   
+}
+
+.leftSection .btn{
+    padding: 12px;
+    border-radius: 24px;
+    background-color: #000021;
+    color: lavender;
+    border: solid 2px lavender;
+    cursor: pointer;
+}
+
+.purple{
+    color: blueviolet;
+    font-weight: 700;
+}
+#element{
+    color: blueviolet;
+}
+.secondSection{
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+
+.secondSection h2{
+    font-size: 1.9rem;
+    margin-bottom: 56px;
+}
+
+.text-gray{
+    margin-top: 36px;
+    margin-bottom: 8px;
+    color: rgb(136, 126, 146);
+}
+ 
+.secondSection .box{
+    background: white;
+    width: 80vw;
+    height: 2px;
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.secondSection .vertical{
+    height: 60px;
+    width: 1px;
+    background-color: white;
+}
+
+.milestone{
+    width: 80vw;
+    height: 32px;
+    display: flex;
+    justify-content: space-around;
+}
+.milestone img{
+    border-radius: 8px;
+}
+
+.collection{
+    width: 80vw;
+    display: flex;
+    justify-content: space-around;
+}
+.works{
+    width: 152px;
+    margin: 36px 0;
+    text-align: center;
+}
+
+.works h4{
+    margin: 8px 0;
+}
+.works p{
+    font-size: 0.6rem;
+    color: gray;
+    /* margin-top: 10px; */
+}
+
+footer{
+    background-color:#08052f;
+    height: 233px;
+}
+.footer-box{
+    display: flex;
+    width: 80vw;
+    margin: auto;
+    padding: 28px 0px;
+    justify-content: space-around;
+}
+footer ul li{
+    list-style: none;
+    font-size: 0.9rem;
+    color: #9c97f1;
+}
+
+.footer-box > div{
+    width: 120px;
+}
+
+
+footer hr{
+    border: 0;
+    background-color: #181554;
+    height: 2px;
+    margin: 30px 84px;
+}
+footer .rights{
+    font-size: 0.7rem;
+    text-align: center;
+}
